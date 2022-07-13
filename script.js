@@ -3,4 +3,7 @@ const nav = document.querySelector('.navbar-links');
 
 hamburger.addEventListener('click', navActive);
 
-function navActive() {}
+function navActive() {
+  if ((hamburger = aa)) {
+  }
+}
