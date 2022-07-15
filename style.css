@@ -146,6 +146,7 @@ h1 {
 
 p {
   color: var(--Dark-Grayish-Blue);
+  font-size: 1.1rem;
 }
 
 main {
