@@ -57,7 +57,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -72,8 +72,8 @@ nav {
 }
 
 #line {
-  width: 1.6rem;
-  height: 0.2rem;
+  width: 1.7rem;
+  height: 0.25rem;
   background-color: var(--Dark-Blue);
 }
 
