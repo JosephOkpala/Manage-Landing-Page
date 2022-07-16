@@ -193,13 +193,13 @@ h2 {
 
 h5 {
   color: var(--Dark-Blue);
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   padding-top: 0.2rem;
   margin-bottom: 0.8rem;
 }
 
 .main-text-paragraph1 {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .flex {
