@@ -310,7 +310,7 @@ footer {
   color: var(--Very-Light-Gray);
   text-decoration: none;
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 1rem;
   transition: 0.5s ease;
 }
 
