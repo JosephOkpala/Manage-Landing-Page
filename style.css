@@ -230,17 +230,17 @@ h5 {
 h3 {
   color: var(--Dark-Blue);
   margin-bottom: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-align: center;
 }
 
 h6 {
   margin-bottom: 0.8rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .grid-paragraph {
-  font-size: 0.87rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
