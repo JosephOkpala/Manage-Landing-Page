@@ -24,6 +24,11 @@
   --font-regular: 400;
   --font-medium: 500;
   --font-bold: 700;
+
+  /* filter */
+  --filter: drop-shadow(0px 200px 60px hsl(0, 0%, 98%));
+  --webkit-filter: drop-shadow(0px 200px 60px hsl(0, 0%, 98%));
+  --moz-filter: drop-shadow(0px 200px 60px hsl(0, 0%, 98%));
 }
 
 @keyframes opacity {
@@ -63,6 +68,20 @@ nav {
 
 .burger {
   display: none;
+  cursor: pointer;
+}
+
+#line {
+  width: 1.6rem;
+  height: 0.2rem;
+  background-color: var(--Dark-Blue);
+}
+
+.line1 {
+  margin-bottom: 0.2rem;
+}
+.line2 {
+  margin-bottom: 0.2rem;
 }
 
 .navbar-links a {
