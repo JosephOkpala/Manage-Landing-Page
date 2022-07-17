@@ -203,6 +203,10 @@
     padding-right: 0.8rem;
     padding-left: 0.8rem;
   }
+  /* div,
+  .hero-image {
+    max-width: 80%;
+  } */
 }
 
 @media (min-width: 1201px) {
@@ -220,5 +224,27 @@
   .footer__links__cont {
     gap: 6rem;
     margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1900px) {
+  .hero-image {
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 850px) {
+  nav {
+    padding-left: 2rem;
+    padding-right: 1rem;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 1rem;
+  }
+
+  .navbar-links a {
+    font-size: 0.9rem;
   }
 }
