@@ -10,3 +10,4 @@ const navSlide = () => {
 };
 
 navSlide();
+console.log(navSlide);
