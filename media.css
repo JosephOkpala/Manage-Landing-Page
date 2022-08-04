@@ -9,6 +9,14 @@
 
   .navbar-links {
     position: absolute;
+    height: 50vh;
+    background-color: red;
+    top: 10vh;
+    inset: 20% 10% 10% 30%;
+    z-index: 3;
+    flex-direction: column;
+    gap: 2rem;
+
     background-color: rgb(255, 255, 255);
     top: 10vh;
     height: 50vh;
@@ -21,6 +29,11 @@
     transform: translateX(-120%);
     opacity: 0;
     transition: 0.5s ease;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+    opacity: 1;
   }
 
   .button {
@@ -47,11 +60,6 @@
   h1 {
     font-size: 3rem;
   }
-}
-
-.nav-active {
-  transform: translateX(0%);
-  opacity: 1;
 }
 
 .toggle .line1 {
@@ -230,6 +238,10 @@
 @media (min-width: 1900px) {
   .hero-image {
     max-width: 45%;
+    max-width: 700px;
+  }
+  .hero-text {
+    max-width: 1000px;
   }
 }
 
@@ -247,4 +259,12 @@
   .navbar-links a {
     font-size: 0.9rem;
   }
+}
+
+.hero-text {
+  margin: 0 auto;
+}
+
+.hero-image {
+  margin: 0 auto;
 }

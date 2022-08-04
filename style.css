@@ -130,7 +130,7 @@ nav {
 }
 
 .hero-image {
-  width: 95%;
+  max-width: 768px;
 }
 
 .illustration {
